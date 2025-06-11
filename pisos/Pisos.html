@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisos</title>
+       <link rel="stylesheet" href="../CSS/style.css">
+       <script src="../JS/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Cortina's Lua</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../sobre.html">Sobre nós</a>
+        </li>
+             <li class="nav-item">
+          <a class="nav-link" href="../cortina/cortinas.html">Cortinas</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="../persiana/persiana.html">Persianas</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="../pisos/Pisos.html">Pisos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- CORTINA DE PREGA -->
+ <!-- PERSIANAS ROMANA -->
+ <div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-3"> 
+      <div class="card">
+        <div class="card-img-wrapper">
+            <h5 class="card-title">Piso Laminado</h5>
+          <img src="../img/Piso/Adobe Express - file.jpg" class="card-img-top" alt="...">
+          <div class="card-overlay">
+            <h5 class="card-title">O piso laminado é composto por lâminas de madeira de alta resistência e traz o visual sofisticado da madeira natural com um custo mais acessível. É ideal para áreas secas como quartos, salas e escritórios.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-img-wrapper">
+            <h5 class="card-title">Piso Vinilico</h5>
+          <img src="../img/Piso/PisoVinilico.jpg" class="card-img-top" alt="...">
+          <div class="card-overlay">
+            <h5 class="card-title">Feito de PVC, o piso vinílico é uma opção versátil e silenciosa, ideal para quem busca conforto no dia a dia. Ele pode ser instalado tanto em ambientes residenciais quanto comerciais, inclusive em áreas com maior umidade.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <p  class="descricao-produto">Se você busca beleza, durabilidade e praticidade na hora de renovar o ambiente, os pisos laminado e vinílico são excelentes escolhas. Ambos oferecem vantagens únicas que combinam com diversos estilos de decoração — do clássico ao moderno.</p></div>
+</div><!-- Pedido -->
+<section id="pedido">
+  <div class="container">
+    <div class="pedido-box">
+      <h2>Monte seu pedido</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <label for="tipo">Tipo de persiana</label>
+          <select id="tipo" class="form-control">
+             <option>Piso Laminado</option>
+            <option>Piso vinilivo</option>
+          </select>
+        </div>
+
+        <div class="col-md-6">
+          <label for="cor">Cor</label>
+          <input type="text" id="cor" class="form-control" placeholder="Ex: Branco gelo" />
+        </div>
+
+        <div class="col-md-6">
+          <label for="altura">Altura ou Comprimento</label>
+          <input type="text" id="altura" class="form-control" placeholder="Ex: 2,50m" />
+        </div>
+
+        <div class="col-md-6">
+          <label for="largura">Largura</label>
+          <input type="text" id="largura" class="form-control" placeholder="Ex: 1,80m" />
+        </div>
+      </div>
+
+      <button class="btn btn-success mt-3" onclick="enviarPedido()">Fazer pedido pelo WhatsApp</button>
+    </div>
+  </div>
+</section>
+ <!-- FOOTER -->
+  <footer class="footer">
+  <div class="container">
+    <p class="contato">
+      <strong>Contato:</strong> 📱 (11) 99871-7330 | ✉ contato@cortinaslua.com.br
+    </p>
+    <p class="copyright">
+      &copy; 2025 Cortina's Lua. Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+</body>
+</html>
