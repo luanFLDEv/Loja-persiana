@@ -7,7 +7,7 @@ body,html{
     height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #ddfaf5, #f5f5dc); /* fundo degradê suave */
   color: #333;
   display: flex;
@@ -159,44 +159,37 @@ body {
 }
 /* --- Cards de Produtos --- */
 .card {
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 25px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-.card-title {
-  color: var(--cor-primaria);
-  font-weight: 600;
-  padding: 10px;
-  margin: 0;
+.card-img-wrapper {
+  position: relative;
+  flex: 0 0 auto; /* mantém o tamanho da imagem */
 }
 
 .card-overlay {
+  width: 100%;
+  color: white;
   background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-  align-items: flex-end;
   padding: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4; /* limita linhas do texto */
+  -webkit-box-orient: vertical;
 }
 
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 /* --- Seção de Pedido --- */
 #pedido {
   background: linear-gradient(135deg, var(--cor-primaria), #34495e);
 
 }
-
-
-
-
-
-
-
 /* --- Responsividade --- */
 @media (max-width: 768px) {
   .carousel-item img {
@@ -267,4 +260,15 @@ body {
 }
 .conteudo-principal {
   flex: 1;
+}   
+.mySwiper {
+  width: 100%;
+  height: 500px;  /* Aumente pra 500px ou o tamanho que quiser */
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* pra imagem se adaptar ao contêiner */
+  border-radius: 10px;
 }

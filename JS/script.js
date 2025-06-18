@@ -16,4 +16,21 @@
 
     window.open(link, "_blank");
   }
-  
+  function agendarPedidoLixamento(){
+    const mensagem = `Olá! Tenho interesse em uma agendar um serviço no meu piso.`;
+    const numeroWhatsApp = "5511998717330";
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(link, "_blank");
+  }
+   function agendarPedidoInstalacaoPersiana(){
+     const mensagem = `Olá! Tenho interesse em uma agendar uma instalaão de persiana.`;
+     const numeroWhatsApp = "5511998717330";
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(link, "_blank"); 
+  }
+    function agendarPedidoInstalacaoPisolo(){
+       const mensagem = `Olá! Tenho interesse em uma agendar uma instalação de piso.`;
+       const numeroWhatsApp = "5511998717330";
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(link, "_blank"); 
+  }
