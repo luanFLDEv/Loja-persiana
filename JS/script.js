@@ -16,6 +16,12 @@
 
     window.open(link, "_blank");
   }
+  function orcamento(){
+       const mensagem = `Olá! Tenho interesse em fazer um orçamento.`;
+    const numeroWhatsApp = "5511998717330";
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(link, "_blank");
+  }
   function agendarPedidoLixamento(){
     const mensagem = `Olá! Tenho interesse em uma agendar um serviço no meu piso.`;
     const numeroWhatsApp = "5511998717330";
