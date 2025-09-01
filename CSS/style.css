@@ -177,7 +177,6 @@ body {
   padding: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 4; /* limita linhas do texto */
   -webkit-box-orient: vertical;
 }
 
