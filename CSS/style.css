@@ -263,7 +263,7 @@ body {
 }   
 .mySwiper {
   width: 100%;
-  height: 500px;  /* Aumente pra 500px ou o tamanho que quiser */
+  height: 400px;  /* Aumente pra 500px ou o tamanho que quiser */
 }
 
 .mySwiper .swiper-slide img {
