@@ -1,5 +1,7 @@
-*{
-    font-family: serif;
+h1,h2,p,a{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase; /* garante caixa alta */
+
    
 }
 
@@ -350,7 +352,7 @@ body {
     max-width: 600px;
     margin: 20px auto;
     background: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -387,7 +389,7 @@ body {
 }
 
 .whatsapp-icon {
-
+    margin-top: 12px;
     width: 50px;
     height: 50px;
 }
@@ -400,13 +402,5 @@ body {
     text-align: center;
 }
 
-/* Responsivo: quando for celular, empilha */
-@media (max-width: 370px) {
-    .topoServico {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .contatoServico {
-        align-self: flex-start; /* botão segue alinhado à esquerda */
-    }
-}
+
+
