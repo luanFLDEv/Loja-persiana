@@ -273,7 +273,7 @@ body {
   border-radius: 10px;
 }
    
-       .produtos {
+       /* .produtos {
             font-size: 20px;
             margin-bottom: 20px;
             padding-bottom: 20px;
@@ -345,4 +345,68 @@ body {
             .garantia {
                 font-size: 16px;
             }
-        }
+        } */
+         .containerDoServico {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.topoServico {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* ícone e texto alinhados no topo */
+}
+
+.produtos {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.contatoServico {
+    display: flex;
+    align-items: flex-start; /* deixa o botão alinhado ao topo do texto */
+}
+
+.btn-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-2px);
+}
+
+.whatsapp-icon {
+
+    width: 50px;
+    height: 50px;
+}
+
+.garantia {
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Responsivo: quando for celular, empilha */
+@media (max-width: 370px) {
+    .topoServico {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contatoServico {
+        align-self: flex-start; /* botão segue alinhado à esquerda */
+    }
+}
