@@ -1,17 +1,35 @@
-*{
-    font-family: 'Anton', sans-serif;
+css
+/* 
+Poppins para Títulos (Chamativas e Modernas) 
+Use pesos como 500, 600 ou 700 para negrito
+*/
+h1, h2, h3, h4, h5, h6,a,li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+ 
 
-    
 
-   
+}
+.btn-whatsapp{
+  color: #ff0000;
 }
 
+/* 
+Nunito Sans para Textos (Legível e Amigável) 
+Use peso 400 para normal e 700 para negrito no texto
+*/
+body, p, input {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  
+  
+}
 body,html{
 
     height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   background: linear-gradient(135deg, #ddfaf5, #f5f5dc); /* fundo degradê suave */
   color: #333;
   display: flex;
