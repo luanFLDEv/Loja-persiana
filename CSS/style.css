@@ -67,7 +67,7 @@ body,html{
     text-align: center;
 }
 .footer {
-  background-color: #222;
+  background-color: #34495e;
   color: #eee;
   font-size: 0.9rem;
   text-align: center;
@@ -335,9 +335,7 @@ body {
      
            @media (max-width: 600px) {
             .contatoServico {
-                flex-direction: column;
-                text-align: center;
-                gap: 15px;
+            
             }
             
             .produtos {
